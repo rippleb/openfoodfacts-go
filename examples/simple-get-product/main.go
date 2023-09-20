@@ -27,7 +27,7 @@ var (
 )
 
 func init() {
-	flag.StringVar(&code, "code", "0737628064502", "Supply the barcode of the item you wish to retrieve")
+	flag.StringVar(&code, "code", "023923900028", "Supply the barcode of the item you wish to retrieve")
 	flag.Parse()
 }
 
